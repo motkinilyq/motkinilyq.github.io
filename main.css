@@ -11,8 +11,8 @@ div{
   align-items:	center;
   display:  flex;
   border: yellow 5px solid;
-  height: 150px;
+  height: 100px;
   justify-content:	center;
   margin: 20px;
-  width: 100px;
+  width: 150px;
 }
