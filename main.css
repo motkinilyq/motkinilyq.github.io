@@ -3,9 +3,10 @@ body{
   background: black;
   display: flex;
   color: yellow;
+  font-family: Candal;
   font-family: Century Gothic;
   justify-content:center;
-  
+
 }
 div{
   align-items:	center;
