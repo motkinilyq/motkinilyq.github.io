@@ -1,0 +1,18 @@
+body{
+  align-items: center;
+  background: black;
+  display: flex;
+  color: yellow;
+  font-family: Century Gothic;
+  justify-content:center;
+  
+}
+div{
+  align-items:	center;
+  display:  flex;
+  border: yellow 5px solid;
+  height: 100px;
+  justify-content:	center;
+  margin: 20px;
+  width: 100px;
+}
