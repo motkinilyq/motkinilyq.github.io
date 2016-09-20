@@ -1,18 +1,26 @@
 body{
-  align-items: center;
-  background: black;
-  display: flex;
+  background: #000;
   color: yellow;
-  font-family: Candal;
-  justify-content:center;
+  font-family:Montserrat;
 
+  font-size: 150%;
 }
-div{
-  align-items:	center;
-  display:  flex;
-  border: yellow 5px solid;
-  height: 100px;
-  justify-content:	center;
-  margin: 20px;
-  width: 150px;
+ul{
+   padding-top: 10px;
+  text-align: center;
+}
+.usual,.special{
+  display: inline;
+}
+.special {
+  border: 5px solid yellow;
+  padding: 20px 20px;
+  margin: 0px 15px;
+}
+.usual:hover{
+  border-bottom: 5px solid yellow;
+}
+.usual{
+  padding:20px 30px;
+
 }
