@@ -1,0 +1,24 @@
+body{
+  margin:0;
+}
+.text{
+  font-size: 20pt;
+  font-family: 'Mukta Vaani', sans-serif;
+  height: 100%;
+  width:50%;
+  border: 4px black solid;
+  margin:0;
+  padding: 0;
+  display:block;
+}
+.text p{
+  padding: 30px;
+}
+h1{
+  font-size: 30pt;
+  padding-left: 30px;
+  padding-top :70px;
+}
+.image{
+  width: 50%;
+}

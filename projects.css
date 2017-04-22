@@ -1,0 +1,35 @@
+body{
+  background-position: top center;
+  background-image: url("http://oboifullhd.ru/_ph/33/463828104.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  font-family:Montserrat;
+  font-size: 150%;
+}
+ul{
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: 170px;
+}
+.usual,.special{
+  display: inline;
+}
+.special {
+  border: 5px solid yellow;
+  padding: 20px 20px;
+  margin: 0px 15px;
+}
+.usual:hover{
+  border-bottom: 5px solid yellow;
+}
+.usual{
+  padding:20px 30px;
+}
+p{
+  color:yellow;
+  font-size: 170%;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
