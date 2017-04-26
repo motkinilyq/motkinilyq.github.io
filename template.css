@@ -5,7 +5,7 @@ body{
   font-size: 20pt;
   font-family: 'Mukta Vaani', sans-serif;
   height: 100%;
-  width:50%;
+  width:48%;
   border: 4px black solid;
   margin:0;
   padding: 0;
@@ -18,4 +18,10 @@ h1{
   font-size: 30pt;
   padding-left: 30px;
   padding-top :70px;
+}
+img{
+  border: 4px black solid;
+  position: absolute;
+  top: 200px;
+  right: 0;
 }
