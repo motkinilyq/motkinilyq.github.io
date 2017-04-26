@@ -30,3 +30,24 @@ a{
   color:white;
   text-decoration: none;
 }
+.social{
+  background-color: #000000;
+  width: 60px;
+  height: 300px;
+  position: fixed;
+  bottom:0;
+  right:0;
+  border: 4px black solid;
+  paddding: auto;
+  margin: auto;
+}
+.social p{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 30px;
+  margin: auto;
+}
+.social p:hover{
+  border-bottom: white 4px solid;
+}
