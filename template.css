@@ -24,4 +24,9 @@ img{
   position: absolute;
   top: 200px;
   right: 0;
+}  
+ @media screen and (max-width: 600px) {
+img{
+ float:left;
+}
 }
