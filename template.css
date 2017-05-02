@@ -25,8 +25,8 @@ img{
   top: 200px;
   right: 0;
 }  
- @media screen and (max-width: 799px) {
-img{
- float:left;
+ @media screen and (max-width: 800px) and (max-height:400px){
+   body{
+ background-color:black;
 }
 }
