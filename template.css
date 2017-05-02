@@ -22,7 +22,9 @@ h1{
 img{
   border: 4px black solid;
   position: absolute;
-  top: 200px;
+  top: 10%;
+  width;45%;
+  height:65%;
   right: 0;
 }  
  @media screen and (max-width: 800px) and (max-height:400px){
