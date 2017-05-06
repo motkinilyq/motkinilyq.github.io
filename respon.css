@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+}
+header{
+  margin-top: -20px;
+  padding-top: 225px;
+  background-image: url('2.jpg');
+  border: 0px solid white;
+  color: black;
+  height: 600px;
+}
+header h1,h2{
+  text-align: center;
+}
+header h2{
+  font-weight: normal;
+}

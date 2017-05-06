@@ -1,0 +1,162 @@
+body{
+  font-family: Tahoma;
+  margin:0;
+  padding:0;
+}
+header{
+  background-color: black;
+  color: #ffffff;
+  line-height: 10px;
+  padding-top: 5px;
+  padding-left: 20%;
+  padding-bottom: 20px;
+}
+header h1,h2{
+  font-weight: normal;
+}
+header h1{
+  font-size: 25pt;
+}
+header h2{
+  font-size: 14pt;
+}
+.menu{
+  float: right;
+}
+.menu ul{
+  border: 2px solid white;
+  display: block;
+  padding: 22px;
+  margin-right: 40px;
+}
+.menu li{
+  display: inline;
+  padding-left: 10px;
+}
+.menu,.logo{
+  display: inline-block;
+}
+.menu li:hover{
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+.logo h1:hover{
+  color:yellow;
+}
+.logo h2:hover{
+  color:yellow;
+}
+.text{
+  background-color: black;
+  color: white;
+  height: 300px;
+  margin-left: 110px;
+  margin-top: 50px;
+  padding: 20px;
+  width: 300px;
+}
+.text p{
+  font-weight: bolder;
+}
+.text,.picture{
+  display: inline-block;
+}
+.picture{
+  background-color: black;
+  color: white;
+  float:right;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: 460px;
+  padding: 20px;
+  width: 630px;
+}
+.picture h1{
+  padding-top: 100px;
+  text-align: center;
+}
+.point{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8pt;
+  margin-left: 80px;
+  margin-top: 50px;
+  padding: 20px;
+  width: 970px;
+}
+.first,.second,.third{
+  height:200px;
+  width: 300px;
+}
+.point h1{
+  padding-left: 10px;
+}
+.small-picture{
+  border: 1px solid black;
+  background-color: black;
+  float:left;
+  height:79px;
+  margin-left: 10px;
+  margin-right: 20px;
+  width:79px;
+}
+.point p{
+  font-size: 13pt;
+  padding-left: 10px;
+}
+.point1{
+  display: flex;
+  font-size: 8pt;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 50px;
+  width: 970px;
+}
+.first1,.second1,.third1{
+  padding: 20px;
+  width:215px;
+}
+.point1 p{
+  font-size: 13pt;
+  margin:-5px 0 0 0;
+}
+.pic{
+  background-color: black;
+  color: white;
+  font-size: 7pt;
+  padding-top:5px;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+}
+.point1 a{
+  float: right;
+  font-size: 11pt;
+  margin-top: 10px;
+  text-decoration: none;
+}
+footer{
+  background-color: black;
+  color: white;
+  font-family: Tahoma;
+  font-weight: bold;
+  height:50px;
+  margin: 0;
+  margin-top: 150px;
+  width:100%;
+}
+.copy{
+  padding-left: 200px;
+  padding-top: 0px;
+  position: relative;
+  bottom: 0;
+}
+.logo-footer{
+  float:right;
+  padding-top: 0px;
+  padding-right: 20px;
+}
+.logo-footer,.copy{
+  display: inline-block;
+}
