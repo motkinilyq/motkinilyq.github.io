@@ -2,10 +2,12 @@ body{
   font-family: Tahoma;
   margin:0;
   padding:0;
+  min-width: 1600px;
 }
 header{
   background-color: black;
   color: #ffffff;
+  display: flex;
   line-height: 10px;
   padding-top: 5px;
   padding-left: 20%;
@@ -30,21 +32,15 @@ header h2{
   margin-right: 40px;
 }
 .menu li{
-  display: inline;
+  display: inline-flex;
   padding-left: 10px;
-}
-.menu,.logo{
-  display: inline-block;
+  padding-bottom: 30px;
 }
 .menu li:hover{
-  padding-bottom: 10px;
-  border-bottom: 2px solid white;
+  color: yellow;
 }
-.logo h1:hover{
-  color:yellow;
-}
-.logo h2:hover{
-  color:yellow;
+.logo{
+  margin-right: 25%;
 }
 .text{
   background-color: black;
@@ -67,7 +63,7 @@ header h2{
   float:right;
   height: 300px;
   margin-top: 50px;
-  margin-right: 460px;
+  margin-right: 450px;
   padding: 20px;
   width: 630px;
 }
@@ -142,21 +138,15 @@ footer{
   font-family: Tahoma;
   font-weight: bold;
   height:50px;
-  margin: 0;
+  margin-bottom:0;
   margin-top: 150px;
   width:100%;
 }
 .copy{
+  font-size: 110%;
   padding-left: 200px;
-  padding-top: 0px;
+  padding-top: 15px;
   position: relative;
   bottom: 0;
-}
-.logo-footer{
-  float:right;
-  padding-top: 0px;
-  padding-right: 20px;
-}
-.logo-footer,.copy{
-  display: inline-block;
+  margin: 0;
 }
