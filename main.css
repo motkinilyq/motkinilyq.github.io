@@ -5,6 +5,7 @@ body{
   color: white;
   font-family:Montserrat;
   font-size: 150%;
+  min-width: 1550px;
 }
 ul{
   padding-top: 10px;
@@ -50,4 +51,5 @@ a{
 }
 .social p:hover{
   border-bottom: white 4px solid;
+  margin-bottom: -4px;
 }

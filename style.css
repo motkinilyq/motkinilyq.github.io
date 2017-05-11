@@ -1,0 +1,45 @@
+body{background-color: black;
+          color: white;
+          font-family: arial !important;
+          min-width: 1600px;
+}
+h1{
+     text-align: center;
+}
+h2{font-size: 20pt;}
+}
+img{border-radius: 10px;
+       height:190px;
+       width:370px;
+}
+
+.menu li {border-bottom: 2px white solid;
+        display: inline;
+        padding: 10px;
+        clear: both;
+}
+.info li{list-style:none;
+           display:inline;
+
+}
+.fourthbox{padding-top: 10px;padding-left:42px;float:left;clear:both;}
+
+.menu{text-align: center;}
+.small{font-size: 15pt;}
+
+.text{font-size: 15pt;}
+.left{padding-left: 15px;}
+
+.p{font-size: 11pt;}
+.line{border-bottom: 2px white solid;padding-bottom:10px;}
+.firstbox{float:left;padding-left:30px;}
+.secondbox{float:left;padding-left: 90px;}
+.thirdbox{float:left;padding-left: 50px;}
+.fourthbox{padding-top: 10px;padding-left:42px;float:left;clear:both;}
+.fifthbox{float:left;clear:right;padding-left:170px;padding-top:9px;}
+.sixthbox{float:right;padding-right:120px;}
+img{width:370px;
+              height:190px;
+             border-radius: 10px;
+
+}

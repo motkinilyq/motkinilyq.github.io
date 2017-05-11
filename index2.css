@@ -1,0 +1,39 @@
+body{
+  background: grey;
+  font-size: 1rem;
+  min-width: 600px
+}
+.logo{
+  background-color: #ffffff;
+  border: 5px solid black;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 200px;
+  margin: auto;
+  width:200px;
+}
+.main{
+  border: 5px solid black;
+  box-sizing: border-box;
+  display: block;
+  font-family: Trebuchet MS;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+.social-block{
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.social-block img{
+  padding-bottom: 5px;
+  width: 2em !important;
+}
+.social-block img:hover{
+  border-bottom: 5px solid #ffffff;
+  margin-bottom: -5px !important;
+}
